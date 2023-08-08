@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login Page</title>
+    </head>
+    <body>
+        <fieldset>
+      <div class="container">
+        <legend>
+            <h2>BUY AND SELL CHOCOLATE</h2>
+        </legend>
+       
+        <form id="form">
+         <input type="text" id="name" name="name" placeholder="Name">
+         <input type="digit" id="price" name="price" placeholder="Price">
+         <input type="text" id="quantity" name="quantity" placeholder="Quantity">
+         <input type="button" value="Submit" id="btn" onclick="Submit()">
+         <button type="button" onclick="resetForm()">Reset</button>
+         
+        </form>
+      </div>
+    </fieldset>
+    <div id="msg"></div>
+    <fieldset>
+    <legend>
+        <h2>Data Storage Table</h2>
+    </legend>
+    <table border="2" id="table">
+        <tr>
+            <td >Name</td>
+            <td >Price</td>
+            <td>Quantity</td>
+            <td>Action</td>
+        </tr>
+    </table>
+</fieldset>
+    
+      <script src="practice.js"></script>
+    </body>
+</html>
